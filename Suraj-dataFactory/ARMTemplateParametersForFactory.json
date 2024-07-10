@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Suraj-dataFactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"on_prim_to_cloud_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://suraj0storage.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0613-060438-rfgswk5r"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "suraj-sev.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "suraj"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "suraj"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "LAPTOP-8PO2C7P1\\SQLEXPRESS"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "project"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "Suraj"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "LAPTOP-8PO2C7P1\\SQLEXPRESS"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "project"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "Suraj"
+		},
+		"on_prim_to_cloud_properties_typeProperties_server": {
+			"value": "LAPTOP-8PO2C7P1\\SQLEXPRESS"
+		},
+		"on_prim_to_cloud_properties_typeProperties_database": {
+			"value": "project"
+		},
+		"on_prim_to_cloud_properties_typeProperties_userName": {
+			"value": "Suraj"
+		}
+	}
+}
