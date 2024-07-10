@@ -1,0 +1,9 @@
+{
+	"name": "Suraj-dataFactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "79cc1a7f-701c-441f-ab17-399ac2cfe8ca",
+		"tenantId": "b0bf8fa7-f324-4280-bf1c-fd8f5e508081"
+	}
+}

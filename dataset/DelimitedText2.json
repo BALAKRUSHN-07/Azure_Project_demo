@@ -1,0 +1,77 @@
+{
+	"name": "DelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sales_analysis",
+				"fileSystem": "gold"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PRODUCT_CODE",
+				"type": "String"
+			},
+			{
+				"name": "ORGANISATION_NAME",
+				"type": "String"
+			},
+			{
+				"name": "CUSTOMER_NAME",
+				"type": "String"
+			},
+			{
+				"name": "VEHICLE_TOYS_NAME",
+				"type": "String"
+			},
+			{
+				"name": "STATUS",
+				"type": "String"
+			},
+			{
+				"name": "CITY",
+				"type": "String"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "String"
+			},
+			{
+				"name": "PRICE_EACH",
+				"type": "String"
+			},
+			{
+				"name": "QUANTITY_ORDERED",
+				"type": "String"
+			},
+			{
+				"name": "SALES_VALUE",
+				"type": "String"
+			},
+			{
+				"name": "DEAL_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "YEAR",
+				"type": "String"
+			},
+			{
+				"name": "MONTH",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
