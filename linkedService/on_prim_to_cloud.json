@@ -1,0 +1,21 @@
+{
+	"name": "on_prim_to_cloud",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-8PO2C7P1\\SQLEXPRESS",
+			"database": "project",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Suraj",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiYzNkMDQzYS1iZGEzLTQwNDEtYWZhNy02NjVjZjA2Mzg4N2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
